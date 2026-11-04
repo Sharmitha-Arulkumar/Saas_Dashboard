@@ -1,7 +1,30 @@
 import React from "react";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useNavigation } from "../context/NavigationContext";
-import { getAssetUrl } from "../utils/imageHelper";
+
+// Explicit core framework imports
+import BaseLogo from "../assets/sideBarSvgs/Base.svg";
+import ProfilePhoto from "../assets/sideBarSvgs/Profile photo.svg";
+import LogoutIcon from "../assets/sideBarSvgs/Logout.svg";
+
+// Explicit static icon lookup table entries
+import DashboardIcon from "../assets/sideBarSvgs/Dashboard.svg";
+import AnalyticsIcon from "../assets/sideBarSvgs/Analytics.svg";
+import InvoiceIcon from "../assets/sideBarSvgs/Invoice.svg";
+import ScheduleIcon from "../assets/sideBarSvgs/Schedule.svg";
+import CalendarIcon from "../assets/sideBarSvgs/Calendar.svg";
+import MessagesIcon from "../assets/sideBarSvgs/Messages.svg";
+import SettingIcon from "../assets/sideBarSvgs/Setting.svg";
+
+const iconLookupMap = {
+  "Dashboard.svg": DashboardIcon,
+  "Analytics.svg": AnalyticsIcon,
+  "Invoice.svg": InvoiceIcon,
+  "Schedule.svg": ScheduleIcon,
+  "Calendar.svg": CalendarIcon,
+  "Messages.svg": MessagesIcon,
+  "Setting.svg": SettingIcon,
+};
 
 export default function DashboardLayout() {
   const { sidebarOpen, setSidebarOpen } = useNavigation();
