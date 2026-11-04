@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useNavigation } from "../context/NavigationContext";
+import { getAssetUrl } from "../utils/imageHelper";
 
 export default function DashboardLayout() {
   const { sidebarOpen, setSidebarOpen } = useNavigation();
