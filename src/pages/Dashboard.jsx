@@ -95,7 +95,7 @@ export default function Dashboard() {
               className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 ${card.bg}`}
             >
               <img
-                src={`/src/assets/dashboardSvgs/${card.icon}`}
+                src={`/assets/dashboardSvgs/${card.icon}`}
                 className={`w-5 h-5 object-contain ${card.iconColor || ""}`}
                 alt=""
               />
@@ -119,7 +119,7 @@ export default function Dashboard() {
           <div className="flex justify-between items-center mb-4">
             <h3 className="font-bold text-sm text-[#1E293B]">Reports</h3>
             <img
-              src="/src/assets/analyticsSvgs/3dots.svg"
+              src="/assets/analyticsSvgs/3dots.svg"
               className="w-4 h-4 cursor-pointer opacity-40"
               alt=""
             />
@@ -237,7 +237,7 @@ export default function Dashboard() {
           <div className="flex justify-between items-center">
             <h3 className="font-bold text-sm text-[#1E293B]">Analytics</h3>
             <img
-              src="/src/assets/analyticsSvgs/3dots.svg"
+              src="/assets/analyticsSvgs/3dots.svg"
               className="w-4 h-4 cursor-pointer opacity-40"
               alt=""
             />
@@ -328,7 +328,7 @@ export default function Dashboard() {
           <div className="flex justify-between items-center mb-5">
             <h3 className="font-bold text-sm text-[#1E293B]">Recent Orders</h3>
             <img
-              src="/src/assets/analyticsSvgs/3dots.svg"
+              src="/assets/analyticsSvgs/3dots.svg"
               className="w-4 h-4 cursor-pointer opacity-40"
               alt=""
             />
@@ -360,7 +360,7 @@ export default function Dashboard() {
                   <td className="py-2 flex items-center gap-3">
                     <div className="w-8 h-8 rounded-lg bg-[#F8FAFC] border border-[#F1F5F9] flex items-center justify-center p-1.5 shrink-0">
                       <img
-                        src={`/src/assets/dashboardSvgs/${order.icon}`}
+                        src={`/assets/dashboardSvgs/${order.icon}`}
                         className="w-full h-full object-contain"
                         alt=""
                       />
@@ -393,7 +393,7 @@ export default function Dashboard() {
               Top selling Products
             </h3>
             <img
-              src="/src/assets/analyticsSvgs/3dots.svg"
+              src="/assets/analyticsSvgs/3dots.svg"
               className="w-4 h-4 cursor-pointer opacity-40"
               alt=""
             />
@@ -413,7 +413,7 @@ export default function Dashboard() {
               >
                 <div className="w-18 h-18 bg-[#F8FAFC] rounded-xl border border-[#F1F5F9] flex items-center justify-center p-2 shrink-0">
                   <img
-                    src={`/src/assets/dashboardSvgs/${product.img}`}
+                    src={`/assets/dashboardSvgs/${product.img}`}
                     className="w-full h-full object-contain"
                     alt=""
                   />
@@ -426,7 +426,7 @@ export default function Dashboard() {
                     {[...Array(5)].map((_, s) => (
                       <img
                         key={s}
-                        src="/src/assets/dashboardSvgs/Star.svg"
+                        src="/assets/dashboardSvgs/Star.svg"
                         className="w-2.5 h-2.5"
                         alt=""
                       />
