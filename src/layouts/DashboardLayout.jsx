@@ -2,30 +2,6 @@ import React from "react";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useNavigation } from "../context/NavigationContext";
 
-// Explicit core framework imports
-import BaseLogo from "../assets/sideBarSvgs/Base.svg";
-import ProfilePhoto from "../assets/sideBarSvgs/Profile photo.svg";
-import LogoutIcon from "../assets/sideBarSvgs/Logout.svg";
-
-// Explicit static icon lookup table entries
-import DashboardIcon from "../assets/sideBarSvgs/Dashboard.svg";
-import AnalyticsIcon from "../assets/sideBarSvgs/Analytics.svg";
-import InvoiceIcon from "../assets/sideBarSvgs/Invoice.svg";
-import ScheduleIcon from "../assets/sideBarSvgs/Schedule.svg";
-import CalendarIcon from "../assets/sideBarSvgs/Calendar.svg";
-import MessagesIcon from "../assets/sideBarSvgs/Messages.svg";
-import SettingIcon from "../assets/sideBarSvgs/Setting.svg";
-
-const iconLookupMap = {
-  "Dashboard.svg": DashboardIcon,
-  "Analytics.svg": AnalyticsIcon,
-  "Invoice.svg": InvoiceIcon,
-  "Schedule.svg": ScheduleIcon,
-  "Calendar.svg": CalendarIcon,
-  "Messages.svg": MessagesIcon,
-  "Setting.svg": SettingIcon,
-};
-
 export default function DashboardLayout() {
   const { sidebarOpen, setSidebarOpen } = useNavigation();
   const navigate = useNavigate();
@@ -53,7 +29,7 @@ export default function DashboardLayout() {
           className="h-20 flex items-center gap-3 px-6 border-b border-[#F1F5F9] shrink-0 cursor-pointer select-none"
         >
           <img
-            src="/src/assets/sideBarSvgs/Base.svg"
+            src="/assets/sideBarSvgs/Base.svg"
             className="w-8 h-8"
             alt="Base Logo"
           />
@@ -83,7 +59,7 @@ export default function DashboardLayout() {
                 <>
                   <div className="flex items-center gap-4">
                     <img
-                      src={`/src/assets/sideBarSvgs/${link.icon}`}
+                      src={`/assets/sideBarSvgs/${link.icon}`}
                       className={`w-4 h-4 transition-all duration-200 ${
                         isActive
                           ? "brightness-0 invert scale-105 opacity-100"
@@ -121,7 +97,7 @@ export default function DashboardLayout() {
           <div className="p-5 m-4 w-40 h-40 rounded-2xl bg-gradient-to-b from-[#5551FF]/5 to-[#5551FF]/10 border border-[#5551FF]/10 text-center relative overflow-hidden shrink-0">
             <div className="w-20 h-20 mx-auto mb-2 flex items-center justify-center">
               <img
-                src="/src/assets/sideBarSvgs/object.svg"
+                src="/assets/sideBarSvgs/object.svg"
                 className="w-full h-full object-contain"
                 alt="Upgrade Info"
               />
@@ -136,7 +112,7 @@ export default function DashboardLayout() {
         <div className="p-4 border-t border-[#F1F5F9] flex items-center justify-between shrink-0 overflow-hidden bg-[#F8FAFC]/40">
           <div className="flex items-center gap-3 overflow-hidden">
             <img
-              src="/src/assets/sideBarSvgs/Profile photo.svg"
+              src="/assets/sideBarSvgs/Profile photo.svg"
               className="w-10 h-10 rounded-xl object-cover border border-[#F1F5F9] shrink-0"
               alt="User Avatar"
             />
@@ -158,7 +134,7 @@ export default function DashboardLayout() {
             title="Log Out"
           >
             <img
-              src="/src/assets/sideBarSvgs/Logout.svg"
+              src="/assets/sideBarSvgs/Logout.svg"
               className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity"
               alt="Exit application"
             />

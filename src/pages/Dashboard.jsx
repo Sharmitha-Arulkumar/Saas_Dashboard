@@ -1,22 +1,11 @@
 import React from "react";
 
-// Add ?url to asset imports
-import HeartIcon from "../assets/dashboardSvgs/Heart.svg?url";
-import GameIcon from "../assets/dashboardSvgs/Game.svg?url";
-import BagIcon from "../assets/dashboardSvgs/Bag.svg?url";
-import WorkIcon from "../assets/dashboardSvgs/Work.svg?url";
-
-import CameraLensIcon from "../assets/dashboardSvgs/Camera Lens.svg?url";
-import BlackDressIcon from "../assets/dashboardSvgs/Black Dress.svg?url";
-import ArganOilIcon from "../assets/dashboardSvgs/Argan Oil.svg?url";
-import EauDeParfumIcon from "../assets/dashboardSvgs/EAU DE Parfum.svg?url";
-
 export default function Dashboard() {
   const metrics = [
     {
       label: "Save Products",
       value: "178+",
-      icon: "HeartIcon",
+      icon: "Heart.svg",
       bg: "bg-[#5551FF]/5",
       iconColor:
         "brightness-0 saturate-100 invert-[34%] sepia-[90%] saturate-[3240%] hue-rotate-[228%] brightness-[102%] contrast-[101%]",
@@ -24,19 +13,19 @@ export default function Dashboard() {
     {
       label: "Stock Products",
       value: "20+",
-      icon: "GameIcon",
+      icon: "Game.svg",
       bg: "bg-[#FFB020]/5",
     },
     {
       label: "Sales Products",
       value: "190+",
-      icon: "BagIcon",
+      icon: "Bag.svg",
       bg: "bg-[#FF5A79]/5",
     },
     {
       label: "Job Application",
       value: "12+",
-      icon: "WorkIcon",
+      icon: "Work.svg",
       bg: "bg-[#7066F0]/5",
     },
   ];
@@ -48,7 +37,7 @@ export default function Dashboard() {
       price: "$178",
       qty: "325",
       amount: "$1,46,660",
-      icon: "CameraLensIcon",
+      icon: "Camera Lens.svg",
     },
     {
       id: "#976368",
@@ -56,7 +45,7 @@ export default function Dashboard() {
       price: "$14",
       qty: "53",
       amount: "$46,660",
-      icon: "BlackDressIcon",
+      icon: "Black Dress.svg",
     },
     {
       id: "#976412",
@@ -64,7 +53,7 @@ export default function Dashboard() {
       price: "$21",
       qty: "78",
       amount: "$3,46,676",
-      icon: "ArganOilIcon",
+      icon: "Argan Oil.svg",
     },
     {
       id: "#976621",
@@ -72,7 +61,7 @@ export default function Dashboard() {
       price: "$32",
       qty: "98",
       amount: "$3,46,981",
-      icon: "EAU DE ParfumIcon",
+      icon: "EAU DE Parfum.svg",
     },
   ];
 
