@@ -130,7 +130,7 @@ export default function Invoice() {
         <div className="flex items-center gap-4">
           <div className="relative max-w-xs">
             <img
-              src="/src/assets/invoiceSvgs/Search.svg"
+              src="/assets/invoiceSvgs/Search.svg"
               className="absolute left-4 top-1/2 -translate-y-1/2 w-3.5 h-3.5 opacity-40"
               alt="Search"
             />
@@ -176,7 +176,7 @@ export default function Invoice() {
               <th className="py-4 pr-6 text-right font-bold text-slate-400 w-16">
                 {" "}
                 <img
-                  src="/src/assets/invoiceSvgs/Delete.svg"
+                  src="/assets/invoiceSvgs/Delete.svg"
                   className="w-4 h-4 opacity-80 hover:opacity-100 cursor-pointer transition-opacity"
                   alt="Batch Delete"
                   title="Delete Selected"
@@ -207,7 +207,7 @@ export default function Invoice() {
                 <td className="py-3.5">
                   <div className="flex items-center gap-3">
                     <img
-                      src={`/src/assets/invoiceSvgs/${row.pic}`}
+                      src={`/assets/invoiceSvgs/${row.pic}`}
                       className="w-8 h-8 rounded-full border border-[#F1F5F9] object-cover bg-slate-50 shrink-0"
                       alt=""
                     />
@@ -221,7 +221,7 @@ export default function Invoice() {
                 <td className="py-3.5">
                   <div className="flex items-center gap-2">
                     <img
-                      src="/src/assets/invoiceSvgs/Mail.svg"
+                      src="/assets/invoiceSvgs/Mail.svg"
                       className="w-3.5 h-3.5 opacity-40 shrink-0"
                       alt=""
                     />
@@ -235,7 +235,7 @@ export default function Invoice() {
                 <td className="py-3.5">
                   <div className="flex items-center gap-2">
                     <img
-                      src="/src/assets/invoiceSvgs/Calendar.svg"
+                      src="/assets/invoiceSvgs/Calendar.svg"
                       className="w-3.5 h-3.5 shrink-0"
                       alt=""
                     />
@@ -260,8 +260,8 @@ export default function Invoice() {
                     <img
                       src={
                         row.favorite
-                          ? "/src/assets/invoiceSvgs/Star.svg"
-                          : "/src/assets/invoiceSvgs/Star.svg"
+                          ? "/assets/invoiceSvgs/Star.svg"
+                          : "/assets/invoiceSvgs/Star.svg"
                       }
                       className={`w-3.5 h-3.5 mx-auto ${row.favorite ? "brightness-100" : "opacity-30"}`}
                       alt="Favorite"
@@ -278,7 +278,7 @@ export default function Invoice() {
                     className="p-1 rounded-lg hover:bg-slate-100 transition-colors inline-block focus:outline-none"
                   >
                     <img
-                      src="/src/assets/invoiceSvgs/3dots.svg"
+                      src="/assets/invoiceSvgs/3dots.svg"
                       className="w-4 h-4 opacity-40"
                       alt="Actions"
                     />
@@ -297,7 +297,7 @@ export default function Invoice() {
                           className="w-full px-4 py-2 hover:bg-[#F8FAFC] text-[11px] font-bold text-indigo-400 flex items-center gap-2"
                         >
                           <img
-                            src="/src/assets/invoiceSvgs/Edit.svg"
+                            src="/assets/invoiceSvgs/Edit.svg"
                             className="w-3 h-3 opacity-80"
                             alt="Edit"
                           />
@@ -314,7 +314,7 @@ export default function Invoice() {
                           className="w-full px-4 py-2 hover:bg-rose-50 text-[11px] font-bold text-rose-500 flex items-center gap-2 border-t border-[#F1F5F9]/50"
                         >
                           <img
-                            src="/src/assets/invoiceSvgs/Delete.svg"
+                            src="/assets/invoiceSvgs/Delete.svg"
                             className="w-3 h-3 fill-rose-500"
                             alt="Delete"
                           />

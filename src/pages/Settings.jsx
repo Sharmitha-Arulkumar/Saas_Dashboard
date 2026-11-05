@@ -194,7 +194,7 @@ export default function Settings() {
                     {/* Meta Priority Badges Row Wrapper */}
                     <div className="flex items-center gap-2 shrink-0 pl-4">
                       <img
-                        src="/src/assets/settingsSvgs/GroupPeople1.svg"
+                        src="/assets/settingsSvgs/GroupPeople1.svg"
                         className="h-7 object-contain shrink-0"
                         alt="Assignees"
                       />
@@ -209,7 +209,7 @@ export default function Settings() {
                         {slot.status}
                       </span>
                       <img
-                        src="/src/assets/settingsSvgs/3dots.svg"
+                        src="/assets/settingsSvgs/3dots.svg"
                         className="w-3.5 h-3.5 opacity-80 cursor-pointer hover:opacity-60 ml-0.5 shrink-0"
                         alt="Menu options dropdown link"
                       />

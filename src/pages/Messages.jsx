@@ -75,7 +75,7 @@ export default function Messages() {
           {/* Local Search Tool Input Container */}
           <div className="relative">
             <img
-              src="/src/assets/messagesSvgs/Search.svg"
+              src="/assets/messagesSvgs/Search.svg"
               className="absolute left-3.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 opacity-40 select-none"
               alt=""
             />
@@ -114,7 +114,7 @@ export default function Messages() {
             >
               <div className="w-10 h-8 rounded-full border border-[#F1F5F9] bg-slate-50 relative shrink-0">
                 <img
-                  src={`/src/assets/messagesSvgs/${thread.pic}`}
+                  src={`/assets/messagesSvgs/${thread.pic}`}
                   className="w-full h-full object-cover rounded-full"
                   alt=""
                 />
@@ -146,7 +146,7 @@ export default function Messages() {
           <div className="flex items-center gap-3.5">
             <div className="w-10 h-10 rounded-full border border-[#F1F5F9] bg-slate-50 shrink-0">
               <img
-                src={`/src/assets/messagesSvgs/${activeUser.pic}`}
+                src={`/assets/messagesSvgs/${activeUser.pic}`}
                 className="w-full h-full object-cover rounded-full"
                 alt=""
               />
@@ -164,21 +164,21 @@ export default function Messages() {
           <div className="flex items-center gap-1.5">
             <button className="p-2 hover:bg-[#F8FAFC] rounded-xl transition-colors">
               <img
-                src="/src/assets/messagesSvgs/Call.svg"
+                src="/assets/messagesSvgs/Call.svg"
                 className="w-4 h-4 opacity-50"
                 alt="Call"
               />
             </button>
             <button className="p-2 hover:bg-[#F8FAFC] rounded-xl transition-colors">
               <img
-                src="/src/assets/messagesSvgs/Video.svg"
+                src="/assets/messagesSvgs/Video.svg"
                 className="w-4 h-4 opacity-50"
                 alt="Video"
               />
             </button>
             <button className="p-2 hover:bg-[#F8FAFC] rounded-xl transition-colors">
               <img
-                src="/src/assets/messagesSvgs/More.svg"
+                src="/assets/messagesSvgs/More.svg"
                 className="w-4 h-4 opacity-50"
                 alt="Options"
               />
@@ -206,7 +206,7 @@ export default function Messages() {
                 </span>
               </div>
               <img
-                src={`/src/assets/messagesSvgs/${activeUser.pic}`}
+                src={`/assets/messagesSvgs/${activeUser.pic}`}
                 className="w-7 h-7 rounded-full object-cover shrink-0 mb-5"
                 alt=""
               />
@@ -214,7 +214,7 @@ export default function Messages() {
             {/* Absolute positioning */}
             <button className="opacity-100 ml-2 self-center">
               <img
-                src="/src/assets/messagesSvgs/3dots.svg"
+                src="/assets/messagesSvgs/3dots.svg"
                 className="w-3.5 h-3.5"
                 alt="options"
               />
@@ -227,21 +227,21 @@ export default function Messages() {
             <div className="col-span-8 flex justify-end gap-3 animate-scaleUp select-none">
               <button className="opacity-100 ml-2 self-center">
                 <img
-                  src="/src/assets/messagesSvgs/3dots.svg"
+                  src="/assets/messagesSvgs/3dots.svg"
                   className="w-3.5 h-3.5 mt-20"
                   alt="options"
                 />
               </button>
               <div className="w-36 h-24 bg-[#F8FAFC] border border-[#F1F5F9] rounded-xl overflow-hidden shadow-sm hover:opacity-95 transition-opacity cursor-pointer">
                 <img
-                  src="/src/assets/messagesSvgs/SendImg1.svg"
+                  src="/assets/messagesSvgs/SendImg1.svg"
                   className="w-full h-full object-cover"
                   alt=""
                 />
               </div>
               <div className="w-36 h-24 bg-[#F8FAFC] border border-[#F1F5F9] rounded-xl overflow-hidden shadow-sm hover:opacity-95 transition-opacity cursor-pointer">
                 <img
-                  src="/src/assets/messagesSvgs/SendImg2.svg"
+                  src="/assets/messagesSvgs/SendImg2.svg"
                   className="w-full h-full object-cover"
                   alt=""
                 />
@@ -259,14 +259,14 @@ export default function Messages() {
                 </span>
               </div>
               <img
-                src={`/src/assets/messagesSvgs/${activeUser.pic}`}
+                src={`/assets/messagesSvgs/${activeUser.pic}`}
                 className="w-7 h-7 rounded-full object-cover shrink-0 mb-5"
                 alt=""
               />
             </div>
             <button className="opacity-100 shrink-0 ml-2 self-center">
               <img
-                src="/src/assets/messagesSvgs/3dots.svg"
+                src="/assets/messagesSvgs/3dots.svg"
                 className="w-3.5 h-3.5"
                 alt="options"
               />
@@ -279,7 +279,7 @@ export default function Messages() {
           <div className="flex items-center gap-3 bg-[#F8FAFC] border border-[#F1F5F9] rounded-xl px-4 py-1.5 focus-within:border-slate-300 transition-colors">
             <button className="focus:outline-none transform active:scale-90 transition-transform shrink-0">
               <img
-                src="/src/assets/messagesSvgs/Paperclip.svg"
+                src="/assets/messagesSvgs/Paperclip.svg"
                 className="w-4 h-4 opacity-50 hover:opacity-80"
                 alt="Attach"
               />
@@ -293,14 +293,14 @@ export default function Messages() {
             />
             <button className="focus:outline-none transform active:scale-90 transition-transform shrink-0">
               <img
-                src="/src/assets/messagesSvgs/Smile.svg"
+                src="/assets/messagesSvgs/Smile.svg"
                 className="w-4 h-4 opacity-50 hover:opacity-80"
                 alt="Emoji"
               />
             </button>
             <button className="w-8 h-8 bg-[#5551FF] hover:bg-[#5551FF]/95 transition-all shadow-sm rounded-xl flex items-center justify-center shrink-0 active:scale-95">
               <img
-                src="/src/assets/messagesSvgs/Send icon.svg"
+                src="/assets/messagesSvgs/Send icon.svg"
                 className="w-3.5 h-3.5 brightness-0 invert"
                 alt="Send"
               />

@@ -23,11 +23,7 @@ export default function Recover() {
         {/* Workspace Brand Logo Row */}
         <div className="flex flex-col items-center gap-1.5 select-none">
           <div className="w-14 h-14 rounded-full flex items-center justify-center shadow-md shadow-[#5551FF]/20">
-            <img
-              src="/src/assets/baseSvgs/Base.svg"
-              className="w-14 h-14"
-              alt=""
-            />
+            <img src="/assets/baseSvgs/Base.svg" className="w-14 h-14" alt="" />
           </div>
           <span className="font-black text-sm text-[#1E293B] tracking-wide mt-1">
             Recover

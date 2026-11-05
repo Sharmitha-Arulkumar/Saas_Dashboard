@@ -44,7 +44,7 @@ export default function SignUp() {
         >
           <div className="w-14 h-14 rounded-full flex items-center justify-center shadow-md shadow-[#5551FF]/20">
             <img
-              src="/src/assets/baseSvgs/Base.svg"
+              src="/assets/baseSvgs/Base.svg"
               className="w-14 h-14"
               alt="Base Logo"
             />
@@ -58,7 +58,7 @@ export default function SignUp() {
         <div className="grid grid-cols-2 gap-3 mb-5 text-[11px] font-bold text-[#64748B]">
           <button className="flex items-center justify-center gap-2 border border-[#F1F5F9] bg-[#F8FAFC] py-2.5 rounded-xl hover:bg-slate-50 transition-colors">
             <img
-              src="/src/assets/baseSvgs/GoogleLogo.svg"
+              src="/assets/baseSvgs/GoogleLogo.svg"
               className="w-3.5 h-3.5"
               alt=""
             />{" "}
@@ -66,7 +66,7 @@ export default function SignUp() {
           </button>
           <button className="flex items-center justify-center gap-2 border border-[#F1F5F9] bg-[#F8FAFC] py-2.5 rounded-xl hover:bg-slate-50 transition-colors">
             <img
-              src="/src/assets/baseSvgs/FacebookLogo.svg"
+              src="/assets/baseSvgs/FacebookLogo.svg"
               className="w-3.5 h-3.5"
               alt=""
             />{" "}
@@ -225,7 +225,7 @@ export default function SignUp() {
       <div className="hidden md:flex md:col-span-7 bg-[#F8FAFC] border-l border-[#F1F5F9] items-center justify-center p-8 select-none">
         <div className="max-w-md xl:max-w-xl w-full">
           <img
-            src="/src/assets/baseSvgs/SignUpImg.svg"
+            src="/assets/baseSvgs/SignUpImg.svg"
             className="w-full h-auto max-h-[500px] object-contain"
             alt="Sign Up Workspace"
           />

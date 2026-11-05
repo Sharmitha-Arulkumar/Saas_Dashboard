@@ -255,7 +255,7 @@ export default function Schedule() {
                 <h3 className="text-xs font-black text-[#1E293B]">People</h3>
                 <div className="relative">
                   <img
-                    src="/src/assets/scheduleSvgs/Search.svg"
+                    src="/assets/scheduleSvgs/Search.svg"
                     className="absolute left-3.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 opacity-40"
                     alt=""
                   />
@@ -269,7 +269,7 @@ export default function Schedule() {
                   {peopleList.map((person, idx) => (
                     <div key={idx} className="flex items-center gap-3">
                       <img
-                        src={`/src/assets/scheduleSvgs/${person.pic}`}
+                        src={`/assets/scheduleSvgs/${person.pic}`}
                         className="w-8 h-8 rounded-full border border-[#F1F5F9] bg-slate-50 object-cover"
                         alt=""
                       />
@@ -335,7 +335,7 @@ export default function Schedule() {
                       </td>
                       <td className="py-4 flex items-center gap-2.5">
                         <img
-                          src="/src/assets/scheduleSvgs/Calendar.svg"
+                          src="/assets/scheduleSvgs/Calendar.svg"
                           className="w-4 h-4 opacity-40 shrink-0"
                           alt=""
                         />
@@ -346,7 +346,7 @@ export default function Schedule() {
                       <td className="py-4">
                         <div className="flex items-center gap-2">
                           <img
-                            src="/src/assets/scheduleSvgs/Time Circle.svg"
+                            src="/assets/scheduleSvgs/Time Circle.svg"
                             className="w-4 h-4 opacity-40 shrink-0"
                             alt=""
                           />
@@ -360,7 +360,7 @@ export default function Schedule() {
                           className={`px-3 py-1 rounded-full text-[11px] font-extrabold inline-flex items-center gap-1.5 ${row.bg}`}
                         >
                           <img
-                            src="/src/assets/scheduleSvgs/Location.svg"
+                            src="/assets/scheduleSvgs/Location.svg"
                             className="w-3 h-3 current-color"
                             alt=""
                           />
@@ -369,14 +369,14 @@ export default function Schedule() {
                       </td>
                       <td className="py-4 text-center">
                         <img
-                          src="/src/assets/scheduleSvgs/Edit.svg"
+                          src="/assets/scheduleSvgs/Edit.svg"
                           className="w-4 h-4 opacity-30 cursor-pointer mx-auto hover:opacity-60"
                           alt=""
                         />
                       </td>
                       <td className="py-4 pr-6 text-right">
                         <img
-                          src="/src/assets/scheduleSvgs/Delete.svg"
+                          src="/assets/scheduleSvgs/Delete.svg"
                           className="w-4 h-4 opacity-30 cursor-pointer inline hover:opacity-60"
                           alt=""
                         />
@@ -401,7 +401,7 @@ export default function Schedule() {
             <button className="bg-[#5551FF] text-white text-xs font-black px-4 py-2.5 rounded-xl flex items-center gap-2 shadow-sm">
               <span>Filter</span>{" "}
               <img
-                src="/src/assets/scheduleSvgs/Filter.svg"
+                src="/assets/scheduleSvgs/Filter.svg"
                 className="w-3 h-3 brightness-0 invert opacity-100"
                 alt=""
               />
@@ -423,7 +423,7 @@ export default function Schedule() {
             </div>
             <div className="relative w-48 max-w-full">
               <img
-                src="/src/assets/scheduleSvgs/Search.svg"
+                src="/assets/scheduleSvgs/Search.svg"
                 className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 opacity-40"
                 alt=""
               />
@@ -481,7 +481,7 @@ export default function Schedule() {
                               </h4>
                             </div>
                             <img
-                              src="/src/assets/scheduleSvgs/3dots.svg"
+                              src="/assets/scheduleSvgs/3dots.svg"
                               className="w-3.5 h-3.5 opacity-30 cursor-pointer shrink-0 mt-0.5"
                               alt=""
                             />
@@ -512,7 +512,7 @@ export default function Schedule() {
                           {card.image && (
                             <div className="w-full h-24 bg-[#F8FAFC] border border-[#F1F5F9] rounded-xl overflow-hidden">
                               <img
-                                src={`/src/assets/scheduleSvgs/${card.image}`}
+                                src={`/assets/scheduleSvgs/${card.image}`}
                                 className="w-full h-full object-cover"
                                 alt=""
                               />
@@ -528,7 +528,7 @@ export default function Schedule() {
                                   className="w-full h-20 bg-[#F8FAFC] border border-[#F1F5F9] rounded-xl overflow-hidden shadow-2xs"
                                 >
                                   <img
-                                    src={`/src/assets/scheduleSvgs/${imgAsset}`}
+                                    src={`/assets/scheduleSvgs/${imgAsset}`}
                                     className="w-full h-full object-cover"
                                     alt=""
                                   />
@@ -541,7 +541,7 @@ export default function Schedule() {
                           <div className="flex justify-between items-center pt-2 border-t border-[#F1F5F9]/60 shrink-0">
                             {card.people ? (
                               <img
-                                src={`/src/assets/scheduleSvgs/${card.people}`}
+                                src={`/assets/scheduleSvgs/${card.people}`}
                                 className="h-5 object-contain"
                                 alt=""
                               />
@@ -549,12 +549,12 @@ export default function Schedule() {
                               <div className="flex -space-x-1.5 overflow-hidden">
                                 <img
                                   className="inline-block h-5 w-5 rounded-full ring-2 ring-white"
-                                  src="/src/assets/scheduleSvgs/Person1.svg"
+                                  src="/assets/scheduleSvgs/Person1.svg"
                                   alt=""
                                 />
                                 <img
                                   className="inline-block h-5 w-5 rounded-full ring-2 ring-white"
-                                  src="/src/assets/scheduleSvgs/Person2.svg"
+                                  src="/assets/scheduleSvgs/Person2.svg"
                                   alt=""
                                 />
                               </div>
@@ -562,7 +562,7 @@ export default function Schedule() {
                             <div className="flex gap-3 text-[10px] text-[#94A3B8] font-bold">
                               <span className="flex items-center gap-1">
                                 <img
-                                  src="/src/assets/scheduleSvgs/Chat.svg"
+                                  src="/assets/scheduleSvgs/Chat.svg"
                                   className="w-3 h-3 opacity-40"
                                   alt=""
                                 />{" "}
@@ -570,7 +570,7 @@ export default function Schedule() {
                               </span>
                               <span className="flex items-center gap-1">
                                 <img
-                                  src="/src/assets/scheduleSvgs/Heart.svg"
+                                  src="/assets/scheduleSvgs/Heart.svg"
                                   className="w-3 h-3 opacity-40"
                                   alt=""
                                 />{" "}

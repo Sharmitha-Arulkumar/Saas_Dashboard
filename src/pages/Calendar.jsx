@@ -6,9 +6,7 @@ export default function Calendar() {
   const [showEventPopup, setShowEventPopup] = useState(false);
   const [eventTypeFilter, setEventTypeFilter] = useState("Event");
 
-  // ==========================================
   // DATA MAPPINGS FOR CORRESPONDING CALENDAR VIEWS
-  // ==========================================
   const hourlyTimeSlots = [
     {
       time: "09.00 AM",
@@ -228,9 +226,7 @@ export default function Calendar() {
         )}
       </div>
 
-      {/* ========================================================
-          CORE STRUCTURE LAYOUT WRAPPER (FOR DAY, WEEK, MONTH, YEAR)
-          ======================================================== */}
+      {/* CORE STRUCTURE LAYOUT WRAPPER (FOR DAY, WEEK, MONTH, YEAR) */}
       {currentCalendarFilter !== "TaskPreview" && (
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
           {/* STATIC LEFT COMPOSITION CONTROL PANEL BLOCK */}
@@ -285,7 +281,7 @@ export default function Calendar() {
               <h3 className="text-xs font-black text-[#1E293B]">People</h3>
               <div className="relative">
                 <img
-                  src="/src/assets/calenderSvgs/Calendar.svg"
+                  src="/assets/calenderSvgs/Calendar.svg"
                   className="absolute left-3.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 opacity-40"
                   alt=""
                 />
@@ -299,7 +295,7 @@ export default function Calendar() {
                 {peopleList.map((person, idx) => (
                   <div key={idx} className="flex items-center gap-3">
                     <img
-                      src={`/src/assets/calenderSvgs/${person.pic}`}
+                      src={`/assets/calenderSvgs/${person.pic}`}
                       className="w-8 h-8 rounded-full border border-[#F1F5F9] bg-slate-50 object-cover shrink-0"
                       alt=""
                     />
@@ -470,9 +466,7 @@ export default function Calendar() {
         </div>
       )}
 
-      {/* ========================================================
-          SCREEN VIEW 3: FULL TASK PREVIEW PAGE (image_8JmkTz.png)
-          ======================================================== */}
+      {/* SCREEN VIEW 3: TASK PREVIEW PAGE */}
       {currentCalendarFilter === "TaskPreview" && (
         <div className="space-y-6 animate-fadeIn">
           {/* Dashboard List Header Area Controls */}
@@ -496,7 +490,7 @@ export default function Calendar() {
                   className="bg-white border border-[#F1F5F9] rounded-xl pl-4 pr-10 py-2 text-xs font-medium focus:outline-none w-44 shadow-3xs"
                 />
                 <img
-                  src="/src/assets/calenderSvgs/Calendar.svg"
+                  src="/assets/calenderSvgs/Calendar.svg"
                   className="absolute right-3.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 opacity-30"
                   alt=""
                 />
@@ -556,7 +550,7 @@ export default function Calendar() {
                           <td className="py-4 flex items-center gap-3">
                             <div className="w-6 h-6 rounded bg-[#F8FAFC] border border-[#F1F5F9] flex items-center justify-center p-1 shrink-0">
                               <img
-                                src={`/src/assets/calenderSvgs/${row.icon}`}
+                                src={`/assets/calenderSvgs/${row.icon}`}
                                 className="w-full h-full object-contain"
                                 alt=""
                               />
@@ -583,12 +577,12 @@ export default function Calendar() {
                           </td>
                           <td className="py-4 text-right pr-4 space-x-3.5">
                             <img
-                              src="/src/assets/calenderSvgs/Edit.svg"
+                              src="/assets/calenderSvgs/Edit.svg"
                               className="w-4 h-4 opacity-30 cursor-pointer inline hover:opacity-70"
                               alt="Edit"
                             />
                             <img
-                              src="/src/assets/calenderSvgs/Delete.svg"
+                              src="/assets/calenderSvgs/Delete.svg"
                               className="w-4 h-4 opacity-30 cursor-pointer inline hover:opacity-70"
                               alt="Delete"
                             />
@@ -654,7 +648,7 @@ export default function Calendar() {
               <div className="flex gap-3 items-center text-xs font-bold text-[#1E293B]">
                 <div className="w-8 h-8 rounded-xl bg-[#FFF0F2] flex items-center justify-center shrink-0">
                   <img
-                    src="/src/assets/calenderSvgs/Time Circle.svg"
+                    src="/assets/calenderSvgs/Time Circle.svg"
                     className="w-4 h-4"
                     alt=""
                   />

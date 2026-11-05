@@ -49,7 +49,7 @@ export default function InvoiceCreate() {
           <div className="flex justify-center py-2 select-none">
             <div className="w-24 h-24 bg-[#F8FAFC] rounded-full flex flex-col items-center justify-center relative border border-[#F1F5F9]">
               <img
-                src="/src/assets/invoiceSvgs/Camera.svg"
+                src="/assets/invoiceSvgs/Camera.svg"
                 className="w-5 h-5 opacity-40"
                 alt=""
               />
@@ -84,7 +84,7 @@ export default function InvoiceCreate() {
                   className="w-full bg-[#F8FAFC] border border-[#F1F5F9] rounded-xl pl-4 pr-10 py-2.5 text-xs font-semibold text-[#1E293B] focus:outline-none"
                 />
                 <img
-                  src="/src/assets/invoiceSvgs/Calendar.svg"
+                  src="/assets/invoiceSvgs/Calendar.svg"
                   className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 opacity-40 pointer-events-none"
                   alt=""
                 />
@@ -126,7 +126,7 @@ export default function InvoiceCreate() {
                   className="w-full bg-[#F8FAFC] border border-[#F1F5F9] rounded-xl pl-4 pr-10 py-2.5 text-xs font-semibold text-[#1E293B] focus:outline-none focus:ring-1 focus:ring-[#5551FF]"
                 />
                 <img
-                  src="/src/assets/invoiceSvgs/Location.svg"
+                  src="/assets/invoiceSvgs/Location.svg"
                   className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 opacity-40 pointer-events-none"
                   alt=""
                 />
@@ -176,7 +176,7 @@ export default function InvoiceCreate() {
                           onClick={() =>
                             setItems(items.filter((_, i) => i !== idx))
                           }
-                          src="/src/assets/invoiceSvgs/Delete.svg"
+                          src="/assets/invoiceSvgs/Delete.svg"
                           className="w-4 h-4 opacity-40 cursor-pointer hover:opacity-100 transition-opacity ml-auto"
                           alt="Remove line"
                         />
@@ -212,14 +212,14 @@ export default function InvoiceCreate() {
             <div className="flex items-center gap-3">
               <button className="p-2 bg-[#F4F4FF] rounded-xl text-[#5551FF] hover:opacity-90 transition-opacity">
                 <img
-                  src="/src/assets/invoiceSvgs/Download.svg"
+                  src="/assets/invoiceSvgs/Download.svg"
                   className="w-4 h-4 brightness-0 saturate-100 invert-[31%] sepia-[86%] saturate-[4124%] hue-rotate-[235%] brightness-[99%] contrast-[105%]"
                   alt="Download layout"
                 />
               </button>
               <button className="p-2 bg-[#F4F4FF] rounded-xl text-[#5551FF] hover:opacity-90 transition-opacity">
                 <img
-                  src="/src/assets/invoiceSvgs/Print.svg"
+                  src="/assets/invoiceSvgs/Print.svg"
                   className="w-4 h-4 brightness-0 saturate-100 invert-[31%] sepia-[86%] saturate-[4124%] hue-rotate-[235%] brightness-[99%] contrast-[105%]"
                   alt="Print document link"
                 />
@@ -233,7 +233,7 @@ export default function InvoiceCreate() {
             <div className="flex justify-between items-start pt-2">
               <div className="w-10 h-10 rounded-xl bg-[#5551FF] flex items-center justify-center p-2">
                 <img
-                  src="/src/assets/invoiceSvgs/InvoiceLogo.svg"
+                  src="/assets/invoiceSvgs/InvoiceLogo.svg"
                   className="w-full h-full object-contain brightness-0 invert"
                   alt=""
                 />

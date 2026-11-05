@@ -12,14 +12,14 @@ export default function AuthSuccess() {
         <div className="w-30 h-30 grid items-center justify-center relative select-none shrink-0">
           {/* Background Confetti Floating Asset */}
           <img
-            src="/src/assets/baseSvgs/ThumbsUpTop.svg"
+            src="/assets/baseSvgs/ThumbsUpTop.svg"
             className="absolute inset-0 w-full h-full scale-100 z-10"
             alt="Success Confetti background"
           />
           {/* Centered Primary ThumbsUp Gesture Icon */}
           <div className="w-20 h-20 bg-[#F4F4FF] rounded-full ">
             <img
-              src="/src/assets/baseSvgs/ThumbsUp.svg"
+              src="/assets/baseSvgs/ThumbsUp.svg"
               className="w-10 h-10 m-5 object-contain relative z-10"
               alt="Thumbs Up icon"
             />
